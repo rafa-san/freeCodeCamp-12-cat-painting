@@ -7,12 +7,101 @@ body {
 }
 
 .cat-head {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: linear-gradient(#5e5e5e 85%, #45454f 100%);
   border: 1px solid #000;
   border-radius: 46%;
   height: 180px;
+  margin: auto;
   width: 205px;
-  position: absolute;
-  top: 300px;
-  left: 400px;
 }
+
+.cat-left-ear {
+  position: absolute;
+  top: -26px;
+  left: -31px;
+  z-index: 1;
+  transform: rotate(-45deg);
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+  border-left: 35px solid transparent;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+}
+
+.cat-left-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-left: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
+  border-right: 20px solid transparent;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.cat-right-ear {
+  position: absolute;
+  top: -26px;
+  left: 163px; 
+  z-index: 1;
+  transform: rotate(45deg);
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+  border-left: 35px solid transparent;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+}
+
+.cat-right-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px; 
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.cat-left-eye {
+  position: absolute;
+  top: 54px;
+  left: 39px;
+  transform: rotate(25deg);
+  background-color: #000;
+  border-radius: 60%;
+  height: 40px;
+  width: 30px;
+}
+
+.cat-left-inner-eye {
+  position: absolute;
+  top: 8px;
+  left: 2px;
+  transform: rotate(10deg);
+  background-color: #fff;
+  border-radius: 60%;
+  height: 20px;
+  width: 10px;
+}
+
+.cat-right-eye {
+  position: absolute;
+  top: 54px;
+  left: 134px;
+  transform: rotate(-25deg);
+  background-color: #000;
+  border-radius: 60%;
+  height: 40px;
+  width: 30px;
+}
+
