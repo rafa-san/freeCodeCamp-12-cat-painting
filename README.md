@@ -14,8 +14,6 @@ A principal diferença em relação ao curso anterior é a introdução de uma n
 
 - <code>transform: rotate</code>: utilizada para girar elementos no sentido horário ou anti-horário de acordo com um determinado grau.
 
-Este projeto manteve o mesmo caráter estimulante do anterior, permitindo explorar a criatividade de forma prática e consolidar habilidades avançadas em CSS.
-
 ## 3️⃣ Principais Modificações
 Este projeto foi desenvolvido conforme as orientações do curso, sem alterações adicionais.
 
@@ -32,7 +30,7 @@ Este projeto foi desenvolvido conforme as orientações do curso, sem alteraçõ
 </div>
 
 ## 5️⃣ Créditos
-Agradeço ao freeCodeCamp por oferecer cursos gratuitos de altíssima qualidade, que não apenas ampliaram meus conhecimentos, mas também contribuíram muito para a construção do meu portfólio.
+Agradeço ao **freeCodeCamp** por oferecer cursos gratuitos de altíssima qualidade, que não apenas ampliaram meus conhecimentos, mas também contribuíram muito para a construção do meu portfólio.
 - <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp 🔗</a>
 
 ## 6️⃣ Licença
